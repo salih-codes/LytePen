@@ -21,7 +21,6 @@ export default function Footer() {
 						<Link className="flex items-center gap-2 text-white" href="#">
 							<Image
 								alt="LytePen logo"
-								className="brightness-0 invert"
 								height={32}
 								src="/logo.svg"
 								width={32}

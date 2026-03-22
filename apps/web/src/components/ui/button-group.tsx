@@ -1,3 +1,4 @@
+/** biome-ignore-all lint/a11y/useSemanticElements: <explanation> */
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import { cva, type VariantProps } from "class-variance-authority";
@@ -25,7 +26,8 @@ function ButtonGroup({
 	className,
 	orientation,
 	...props
-}: React.ComponentProps<"div"> & VariantProps<typeof buttonGroupVariants>) {
+}: React.ComponentPropsWithoutRef<"div"> &
+	VariantProps<typeof buttonGroupVariants>) {
 	return (
 		<div
 			className={cn(buttonGroupVariants({ orientation }), className)}
