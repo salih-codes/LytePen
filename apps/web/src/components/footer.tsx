@@ -23,7 +23,7 @@ export default function Footer() {
 								alt="LytePen logo"
 								className="brightness-0 invert"
 								height={32}
-								src="/favicon/favicon.svg"
+								src="/logo.svg"
 								width={32}
 							/>
 							<span className="font-semibold text-lg tracking-tight">

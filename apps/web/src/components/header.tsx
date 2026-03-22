@@ -50,7 +50,7 @@ export default function Header() {
 					<Image
 						alt="LytePen logo"
 						height={36}
-						src="/favicon/favicon.svg"
+						src="/logo.svg"
 						width={36}
 					/>
 					<span className="font-semibold text-lg tracking-tight">LytePen</span>
