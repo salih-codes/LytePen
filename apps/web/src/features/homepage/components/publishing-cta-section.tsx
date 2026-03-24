@@ -72,7 +72,7 @@ export default function PublishingCtaSection() {
 	const book = sampleBooks[currentIndex];
 
 	return (
-		<section className="w-full bg-[#FFF4E9] py-20 lg:py-32">
+		<section className="w-full bg-[#FFF4E9] py-20 lg:py-32" id="monetization">
 			<div className="mx-auto flex w-full max-w-[1288px] flex-col items-center justify-between gap-16 px-6 lg:flex-row lg:items-start lg:gap-8">
 				{/* Left Content - Mobile Mockup */}
 				<div className="relative flex w-full max-w-[400px] flex-col items-center justify-center lg:items-start lg:pl-4">

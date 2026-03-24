@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
 
 export default function TestimonialsSection() {
 	return (
-		<section className="w-full bg-[#F5F7FC] py-20 lg:py-32">
+		<section className="w-full bg-[#F5F7FC] py-20 lg:py-32" id="investors">
 			<div className="mx-auto flex w-full max-w-[1288px] flex-col items-center gap-16 px-6">
 				{/* Header */}
 				<div className="flex max-w-3xl flex-col items-center text-center">
@@ -89,7 +89,7 @@ export default function TestimonialsSection() {
 							<Star className="h-4 w-4 fill-orange-500" />
 						</div>
 						<p className="font-medium text-gray-600 text-sm leading-relaxed">
-							&quot;LytePen has completely transformed my reading habits. The
+							&quot;Lytepen has completely transformed my reading habits. The
 							seamless experience between reading and listening is incredible.
 							I&apos;ve finished more books in the past 3 months than I did all
 							of last year!&quot;
@@ -136,7 +136,7 @@ export default function TestimonialsSection() {
 							<Star className="h-4 w-4 fill-orange-500" />
 						</div>
 						<p className="font-medium text-gray-600 text-sm leading-relaxed">
-							&quot;As an author, LytePen has given me direct access to my
+							&quot;As an author, Lytepen has given me direct access to my
 							readers like never before. The analytics are fantastic, and the
 							70% royalty share is industry-leading. My readership has grown
 							exponentially!&quot;
@@ -208,7 +208,7 @@ export default function TestimonialsSection() {
 				</div>
 
 				{/* Why Lytepen Section */}
-				<div className="flex w-full flex-col items-center gap-10">
+				<div className="flex w-full flex-col items-center gap-10" id="about">
 					<h2 className="font-bold font-heading text-3xl text-foreground sm:text-4xl">
 						Why Lytepen
 					</h2>

@@ -6,11 +6,11 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const navLinks = [
-	{ href: "#", label: "Discover" },
-	{ href: "#", label: "Creators" },
-	{ href: "#", label: "Monetization" },
-	{ href: "#", label: "Investors" },
-	{ href: "#", label: "About" },
+	{ href: "/#discover", label: "Discover" },
+	{ href: "/#creators", label: "Creators" },
+	{ href: "/#monetization", label: "Monetization" },
+	{ href: "/#investors", label: "Investors" },
+	{ href: "/#about", label: "About" },
 ] as const;
 
 export default function Header() {
@@ -47,8 +47,8 @@ export default function Header() {
 			<div className="mx-auto flex h-full max-h-25 w-full max-w-[1288px] items-center justify-between px-6">
 				{/* Logo */}
 				<Link className="flex items-center gap-2" href="#">
-					<Image alt="LytePen logo" height={36} src="/logo.svg" width={36} />
-					<span className="font-semibold text-lg tracking-tight">LytePen</span>
+					<Image alt="Lytepen logo" height={36} src="/logo.svg" width={36} />
+					<span className="font-semibold text-lg tracking-tight">Lytepen</span>
 				</Link>
 
 				{/* Desktop Nav links (Hidden on mobile/tablet) */}

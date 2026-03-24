@@ -4,7 +4,7 @@ import { ImageResponse } from "next/og";
 export const runtime = "edge";
 
 // Image metadata
-export const alt = "LytePen - Africa's new storytelling destination";
+export const alt = "Lytepen - Africa's new storytelling destination";
 export const size = {
 	width: 1200,
 	height: 630,
@@ -44,7 +44,7 @@ export default function Image() {
 					viewBox="0 0 24 24"
 					width="120"
 				>
-					<title>LytePen Logo</title>
+					<title>Lytepen Logo</title>
 					<path d="M12 19l7-7 3 3-7 7-3-3z" />
 					<path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
 					<path d="M2 2l7.58 7.58" />
@@ -65,7 +65,7 @@ export default function Image() {
 					fontWeight: "bold",
 				}}
 			>
-				LytePen
+				Lytepen
 			</div>
 			<div
 				style={{

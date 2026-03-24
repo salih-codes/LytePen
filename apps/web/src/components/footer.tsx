@@ -20,13 +20,13 @@ export default function Footer() {
 					<div className="flex flex-col gap-6 lg:col-span-1">
 						<Link className="flex items-center gap-2 text-white" href="#">
 							<Image
-								alt="LytePen logo"
+								alt="Lytepen logo"
 								height={32}
 								src="/logo.svg"
 								width={32}
 							/>
 							<span className="font-semibold text-lg tracking-tight">
-								LytePen
+								Lytepen
 							</span>
 						</Link>
 						<p className="leading-relaxed">

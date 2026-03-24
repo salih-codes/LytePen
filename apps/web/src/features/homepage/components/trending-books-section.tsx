@@ -118,29 +118,6 @@ const books = [
 		category: "Romance",
 		cover: "/sample-books/gold-coast-dilemma-9781668061183_lg.jpg.jpeg",
 	},
-	{
-		id: 11,
-		title: "Dream Count",
-		author: "Chimamanda Ngozi Adichie",
-		publisher: "Knopf",
-		rating: 4.9,
-		reviews: "45.1k",
-		pages: 400,
-		category: "Fiction",
-		cover: "/sample-books/Dream count.png",
-	},
-	{
-		id: 12,
-		title: "The Hand of Iman",
-		author: "Ryad Assani-Razaki",
-		publisher: "Governor General",
-		rating: 4.6,
-		reviews: "8.2k",
-		pages: 288,
-		category: "Drama",
-		cover:
-			"/sample-books/BNCImageAPI_e92de081-7229-4f2f-9c35-d0c99c58e795_1024x1024.jpg.webp",
-	},
 ];
 
 const audiobooks = [
@@ -254,28 +231,6 @@ const audiobooks = [
 		category: "Biography",
 		cover: "/sample-audio-books/Yoruba Boy Running.jpg.jpeg",
 	},
-	{
-		id: 11,
-		title: "My Sister, the Serial Killer",
-		author: "Oyinkan Braithwaite",
-		publisher: "Doubleday",
-		rating: 4.7,
-		reviews: "56.2k",
-		duration: "4 hrs 56 mins",
-		category: "Thriller",
-		cover: "/sample-audio-books/My Sister the Serial Killer.webp",
-	},
-	{
-		id: 12,
-		title: "Yoruba Boy Running",
-		author: "Biyi Bandele",
-		publisher: "Hamish Hamilton",
-		rating: 4.9,
-		reviews: "9.2k",
-		duration: "13 hrs 50 mins",
-		category: "Biography",
-		cover: "/sample-audio-books/Yoruba Boy Running.jpg.jpeg",
-	},
 ];
 
 interface BookType {
@@ -358,7 +313,7 @@ function BookCard({
 
 export default function TrendingBooksSection() {
 	return (
-		<section className="w-full bg-[#f8f8f8] py-20 lg:py-32">
+		<section className="w-full bg-[#f8f8f8] py-20 lg:py-32" id="discover">
 			<div className="mx-auto flex w-full max-w-[1288px] flex-col gap-12 px-6">
 				<Tabs className="w-full" defaultValue="books">
 					{/* Header Section */}
@@ -385,7 +340,7 @@ export default function TrendingBooksSection() {
 
 					{/* Grid Sections */}
 					<TabsContent className="mt-6 outline-none sm:mt-8" value="books">
-						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 lg:gap-6">
+						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 lg:gap-6">
 							{books.map((book) => (
 								<BookCard book={book} key={book.id} />
 							))}
@@ -393,7 +348,7 @@ export default function TrendingBooksSection() {
 					</TabsContent>
 
 					<TabsContent className="mt-6 outline-none sm:mt-8" value="audiobooks">
-						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 lg:gap-6">
+						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 lg:gap-6">
 							{audiobooks.map((book) => (
 								<BookCard book={book} isAudio key={book.id} />
 							))}

@@ -23,11 +23,11 @@ const fontMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	title: {
-		default: "LytePen - Africa's new storytelling destination",
-		template: "%s | LytePen",
+		default: "Lytepen - Africa's new storytelling destination",
+		template: "%s | Lytepen",
 	},
 	description:
-		"LytePen is the premier platform for African literature, audiobooks, and creators. Join early access to shape Africa's reading future.",
+		"Lytepen is the premier platform for African literature, audiobooks, and creators. Join early access to shape Africa's reading future.",
 	keywords: [
 		"African literature",
 		"audiobooks",
@@ -36,20 +36,20 @@ export const metadata: Metadata = {
 		"publishing",
 		"African authors",
 	],
-	authors: [{ name: "LytePen" }],
-	creator: "LytePen",
+	authors: [{ name: "Lytepen" }],
+	creator: "Lytepen",
 	openGraph: {
 		type: "website",
 		locale: "en_US",
 		url: "https://lytepen.com",
-		title: "LytePen",
+		title: "Lytepen",
 		description:
 			"An immersive storytelling destination designed to empower African creators and readers alike.",
-		siteName: "LytePen",
+		siteName: "Lytepen",
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "LytePen",
+		title: "Lytepen",
 		description: "Africa's new storytelling destination.",
 		creator: "@lytepen",
 	},

@@ -4,17 +4,17 @@ const APP_VARIANT = process.env.APP_VARIANT ?? "production";
 
 const variantConfig = {
 	development: {
-		name: "LytePen (Dev)",
+		name: "Lytepen (Dev)",
 		scheme: "lyte-pen-dev",
 		bundleIdentifier: "com.lytepen.dev",
 	},
 	beta: {
-		name: "LytePen (Beta)",
+		name: "Lytepen (Beta)",
 		scheme: "lyte-pen-beta",
 		bundleIdentifier: "com.lytepen.beta",
 	},
 	production: {
-		name: "LytePen",
+		name: "Lytepen",
 		scheme: "lyte-pen",
 		bundleIdentifier: "com.lytepen",
 	},
